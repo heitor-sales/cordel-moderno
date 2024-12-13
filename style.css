@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+}
+
+h1 {
+    font-family: "Passion One", Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    padding: 0px 20px 0px 20px;
+}
+
+header p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Passion One", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    font-size: 2em;
+}
+
+div {
+    padding: 100px 0px 40px;
+    margin: 0px 0px 0px -100px;
+}
+
+pre {
+    font-family: "Sriracha", cursive;
+}
+
+#estrofe-dois {
+    background-image: url('imagens/background001.jpg');
+    background-size: cover; /* Faz com que a imagem cubra toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white; /* Para garantir que o texto seja visível sobre a imagem */
+    height: 800px;
+}
+
+.transparencia {
+    background-color: rgba(0, 0, 0, 0.308);
+    min-width: 530px;
+    max-width: 530px;
+    padding: 45px 0px 0px 0px;
+}
+
+#estrofe-cinco {
+    background-image: url('imagens/background002.jpg');
+    background-size: cover; /* Faz com que a imagem cubra toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    color: white; /* Para garantir que o texto seja visível sobre a imagem */
+    height: 1000px;
+}
